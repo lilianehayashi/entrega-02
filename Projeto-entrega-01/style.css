@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h1 {
+    font-family: biorhyme;
+    font-weight: 800;
+    font-size: 240px;
+    color: #DBD2C1;
+}
+
+div{
+    font-family: biorhyme;
+    font-weight:300;
+    font-size: 35px;
+    color: #DBD2C1;
+}
+
+a{
+    font-family: bellota;
+    font-weight:300;
+    font-size: 24px;
+    color: #DBD2C1;
+}
+
+p{
+    font-family: bellota;
+    font-weight:300;
+    font-size: 24px; 
+}
+
+h2{
+    font-family: biorhyme;
+    font-weight: 800;
+    font-size: 150px;
+}
+
+h3{
+    font-family: biorhyme;
+    font-weight: 800;
+    font-size: 48px;
+    color: #DBD2C1;
+}
+
+h4 {
+    font-family: biorhyme;
+    font-weight: 800;
+    font-size: 180px;
+    color: #FAAD1B;
+}
+
+h5 {
+    font-family: biorhyme;
+    font-weight: 800;
+    font-size: 64px;
+}
