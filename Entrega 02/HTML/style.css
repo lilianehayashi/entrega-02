@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-}
+  }
 
 .navegador {
     display: flex;
     flex-direction: row;
     background-color: #344C36;
-    padding: 1em;
+    padding: 1.5em;
     position: fixed;
     width: 100%;
     justify-content: space-between;
@@ -25,7 +25,7 @@
   font-variation-settings:
     "wdth" 100;
     color: #DBD2C1;
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 2;
 }
 
@@ -36,7 +36,7 @@
   font-family: "Bellota", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #DBD2C1;
   text-decoration: none;
   margin-left: 0.5rem;
@@ -50,46 +50,39 @@
     font-family: "Bellota", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   color: #000000;
   text-decoration: none;
-  padding: 0.25rem;
+  align-self: center;
+  padding: 0rem;
   margin-left: 1rem;
-  border: #344C36;
+  border: none;
   cursor: pointer;
-  border-radius: 50%;
-  width: 7rem;
+  border-radius: 2rem;
+  width: 11rem;
+  height: 2.5rem;
 
 }
 
 .pagina-principal {
   display: block;
     background-color: #344C36;
-    position: relative;
-    top: 2.5rem;
+    /*position: absolute;
+    top: 4rem;*/
     width: 100%;
+    height: 67rem;
 }
 
 .caixa-port h1 {
   position: relative;
-  top: -46rem;
-  left: 9.5rem;
-  font-size: 15rem;
-  margin-bottom: -5rem;
+  top: -44rem;
+  left: 12rem;
+  display: grid;
+  grid-template-rows: 1f 1f 1f 1f;
+  font-size: 21rem;
+  margin-bottom: -1rem;
   letter-spacing: -0.5rem;
   height: 18rem;
-}
-
-#portfolio-preenchido {
-  font-family: "BioRhyme", serif;
-  font-optical-sizing: 15rem;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    color: #DBD2C1;
-  z-index: 4;
-  position: relative;
 }
 
 .biorhyme-port-preenchido {
@@ -128,8 +121,9 @@
 
 #foto-cachorro {
   position: relative;
-  top: 10rem;
-  left: 5rem;
+  top: 23rem;
+  left: 14rem;
+  scale: 1.33;
   z-index: 3;
 }
 
@@ -137,13 +131,13 @@
   display: grid;
   grid-template-columns: 50% 50%;
   background-color: #000000;
-  position: relative;
-  top: -45rem;
+  position: absolute;
+  top: 67rem;
   width: 100%;
-  height: 23.5rem;
-  padding-top: 10rem;
-  padding-left: 5rem;
-  padding-right: 24rem;
+  height: 30rem;
+  padding-top: 13rem;
+  padding-left: 18rem;
+  padding-right: 40rem;
   font-family: "Bellota", serif;
   font-weight: 400;
   font-style: normal;
@@ -161,56 +155,60 @@
   display: flex;
   flex-direction: column;
   background-color: #DBD2C1;
-  position: relative;
-  top: -45rem;
-
+  position: absolute;
+  top: 97rem;
+  width: 100%;
+  height: 37rem;
 }
 
 .biorhyme-some-of {
   font-family: "BioRhyme", serif;
   font-weight: 800;
-  font-size: 9.3rem;
+  font-size: 11rem;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
     color: #000000;
-    position: relative;
+  padding-left: 5rem;
+  padding-top: 3rem;
+    /*position: relative;
     left: 5rem;
-    top: 3rem;
+    top: 3rem;*/
 }
 
 .biorhyme-my-works {
   font-family: "BioRhyme", serif;
   font-weight: 800;
-  font-size: 9.3rem;
+  font-size: 11rem;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
     color: #344C36;
-    position: relative;
+  padding-left: 5rem;
+  margin-top: -5rem;
+    /*position: relative;
     top: -1rem;
-    left: 5rem;
+    left: 5rem;*/
 }
 
 .texto-preto {
   font-family: "Bellota", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #000000;
   padding-left: 5rem;
   padding-right: 5rem;
-
-  position: relative;
-  top: -1rem;
+  /*position: relative;
+  top: -1rem;*/
 }
 
 .div-projects {
   display: flex;
   flex-direction: column;
   background-color: #344C36;
-  position: relative;
-  top: -45rem;
+  position: absolute;
+  top: 134rem;
   height: 93.7rem;
   width: 100%;
 }
@@ -239,7 +237,7 @@
   height: 100rem;
   justify-self: center;
   position: relative;
-  top: -130rem;
+  top: 76rem;
   z-index: 5;
 }
 
@@ -277,7 +275,191 @@
 
 .fundo-bege {
   background-color: #DBD2C1;
-  height: 87rem;
-  position: relative;
-  top: -150rem;
+  height: 20rem;
+  position: absolute;
+  top: 227.5rem;
+  width: 100%;
+}
+
+
+/* Media query para desktops */
+@media (max-width: 1199.98px) {
+
+
+.pagina-principal {
+display: block;
+  height: 42rem;
+}
+
+.caixa-port h1 {
+top: -36rem;
+left: 8rem;
+font-size: 10.0rem;
+height: 9rem;
+}
+
+
+#foto-cachorro {
+top: 8.5rem;
+left: -2.8rem;
+scale: 0.65;
+}
+
+.div-preta {
+grid-template-columns: 60% 40%;
+top: 42rem;
+height: 21rem;
+padding-top: 7rem;
+padding-left: 10rem;
+padding-right: 0rem;
+font-size: 1.3rem;;
+z-index: 2;
+}
+
+.caixa-bege-works {
+top: 63rem;
+height: 37rem;
+}
+
+.biorhyme-some-of {
+padding-left: 5rem;
+padding-top: 1rem;
+}
+
+.div-projects {
+top: 100rem;
+height: 93.7rem;
+}
+
+.texto-projects h3 {
+font-size: 8rem;
+  left: 4rem;
+  top: 4rem;
+}
+
+.trabalhos {
+gap: 2rem;
+width: 85%;
+top: 68rem;
+}
+
+.cora-autonomy {
+gap: 2rem;
+}
+
+.deloitte-bauducco {
+gap: 2rem;
+padding-top: 12rem;
+}
+
+.fundo-bege {
+height: 23rem;
+top: 193.5rem;
+}
+}
+
+
+
+/* Media query para tablets */
+@media (max-width: 991.98px) {
+
+  .navegador {
+    padding: 1em;
+}
+
+#nome {
+  font-size: 1.3rem;
+}
+
+.menu-superior {
+  font-size: 1.3rem;
+}
+
+.CTA {
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  width: 10rem;
+  height: 2.3rem;
+}
+
+.pagina-principal {
+    height: 35rem;
+}
+
+.caixa-port h1 {
+  top: -40rem;
+  left: 7.5rem;
+  font-size: 8.5rem;
+  height: 8rem;
+}
+
+#foto-cachorro {
+  top: 1.5rem;
+  left:-5rem;
+  scale: 0.55;
+}
+
+.div-preta {
+  grid-template-columns: 70% 30%;
+  top: 35rem;
+  height: 15rem;
+  padding-top: 6rem;
+  padding-left: 11rem;
+  padding-right: 0rem;
+  font-size: 1rem;
+}
+
+.caixa-bege-works {
+  top: 50rem;
+  height: 30rem;
+}
+
+.biorhyme-some-of {
+  font-size: 7rem;
+  padding-top: 3rem;
+}
+
+.biorhyme-my-works {
+  font-size: 7rem;
+  margin-top: -3rem;
+}
+
+.texto-preto {
+  font-size: 1.2rem;
+  padding-left: 5rem;
+  padding-right: 3cm;
+}
+
+.div-projects {
+  top: 80rem;
+  height: 93.7rem;
+}
+
+.texto-projects h3 {
+  font-size: 8rem;
+    margin-bottom: -2.5rem;
+    left: 3.5rem;
+}
+
+.trabalhos {
+  gap: 2rem;
+  width: 85%;
+  height: 90rem;
+  top: 55rem;
+}
+
+.cora-autonomy {
+  gap: 2rem;
+}
+
+.deloitte-bauducco {
+  gap: 2rem;
+  padding-top: 11rem;
+}
+
+
+.fundo-bege {
+  height: 13rem;
+  top: 173rem;
+}
 }
