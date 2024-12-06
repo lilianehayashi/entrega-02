@@ -1,21 +1,8 @@
 /* reset de css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-}
-
-
-p{
-    /* color:blue; */
-    /* nome da cor, HEX, RGB e RGBA */
-    /* color: #b2d6f9; */
-    /* color: rgb(0, 0, 255) */
-    /* color: rgba(0, 0, 255, 0.5); */
-    font-size: 30px;
-    /* unidades de medida | px em rem % */
-    margin: 20px;
-
 }
 
 .navegador {
@@ -26,6 +13,7 @@ p{
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    z-index: 3;
 
 }
 
@@ -43,10 +31,10 @@ p{
     display: flex;
     align-items: end;
     align-content: flex-end;
-    font-family: "Bellota", serif;
+  font-family: "Bellota", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.75rem;
+  font-size: 0.rem;
   color: #DBD2C1;
   text-decoration: none;
   margin-left: 0.5rem;
@@ -73,6 +61,149 @@ p{
 }
 
 .pagina-principal {
-    display: grid;
+  display: block;
     background-color: #344C36;
+    position: relative;
+    top: 2.5rem;
+    width: 100%;
+}
+
+.caixa-port {
+  position: relative;
+  font-size: 240px;
+  top: -40rem;
+  left: 5rem;
+}
+
+#portfolio-preenchido {
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #DBD2C1;
+    z-index: 2;
+}
+
+.biorhyme-port-preenchido {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #DBD2C1;
+    z-index: 2;
+}
+
+.biorhyme-port-vazado-amarelo {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-shadow:#FAAD1B 1px -1px, #FAAD1B -1px 1px, #FAAD1B 1px 1px, #FAAD1B -1px -1px;
+  font-variation-settings:
+    "wdth" 100;
+    color: #344C36;
+    z-index: 2;
+}
+
+.biorhyme-port-vazado-bege {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-shadow:#DBD2C1 1px -1px, #DBD2C1 -1px 1px, #DBD2C1 1px 1px, #DBD2C1 -1px -1px;
+  font-variation-settings:
+    "wdth" 100;
+    color: #344C36;
+    z-index: 2;
+}
+
+#foto-cachorro {
+  position: relative;
+  top: 10rem;
+  z-index: 1;
+}
+
+.div-preta {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  position: relative;
+  top: -10rem;
+  width: 100%;
+  height: 23.5rem;
+  padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 24rem;
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #DBD2C1;
+}
+.caixa-bege-works {
+  display: flex;
+  flex-direction: column;
+  background-color: #DBD2C1;
+  position: relative;
+  top: -10rem;
+
+}
+
+.biorhyme-some-of {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 9.3rem;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #000000;
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+}
+.biorhyme-my-works {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 9.3rem;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #344C36;
+    position: relative;
+    top: -1rem;
+    left: 5rem;
+}
+
+.texto-preto {
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #000000;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  position: relative;
+  top: -1rem;
+}
+
+.div-projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #344C36;
+  position: relative;
+  top: -10rem;
+  height: 93.7rem;
+}
+
+.texto-projects {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 100rem;
+  font-style: normal;
+  text-shadow:#FAAD1B 1px -1px, #FAAD1B -1px 1px, #FAAD1B 1px 1px, #FAAD1B -1px -1px;
+  font-variation-settings:
+    "wdth" 100;
+    color: #344C36;
 }
